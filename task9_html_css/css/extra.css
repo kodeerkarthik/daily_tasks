@@ -1,0 +1,57 @@
+#first {
+  width: 50%;
+  margin-left: 300px;
+  margin-bottom: 30px;
+  background-color:#4da6ff;
+  color: red;
+}
+#firstp {
+  font-size: 30px;
+  text-align: center;
+}
+#second {
+  height: 30px;
+  background-color: transparent;
+  border:0;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+span {
+  padding: 30px;
+  font-size: 25px;
+}
+#third {
+  height: 300px;
+}
+#forth {
+  background-color:  #33cc33;
+}
+#kk {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+#secondp {
+  font-size: 20px;
+}
+.scroll {
+  height: 300px;
+}
+footer {
+  
+  font-size: 20px;
+  margin-left: 600px;
+  float: bottom;
+}
+.foot {
+  margin-top: 25px;
+  background-color: black;
+  color: white;
+}
+a:hover {
+  background-color: red;
+}
