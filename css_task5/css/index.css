@@ -1,0 +1,44 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+.flex > div {
+    background-color: transparent;
+  width: 100%;
+  margin-top: 10px;
+  line-height: 50px;
+  font-size: 20px;
+}
+i {
+	width: 30px;
+	margin-left: 40px;
+	padding-right: 20px;
+}
+p {
+	text-align: center;
+	font-size: 30px;
+	color: #bfbfbf;
+}
+img {
+	width: 100px;
+	height: 100px;
+	margin-left: 150px;
+	margin-top: 50px;
+	border-radius: 50%;
+}
+b {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 18px;
+	color: #4d4d4d;
+}
+.flex > div:hover {
+	background-color: #f1f1f1;
+	color:#7733ff;
+}
