@@ -12,6 +12,7 @@
   	margin: 10px;
   	border: solid 1px #808080;
   	line-height: 20px;
+  	box-shadow: 0 10px 10px 0;
 }
 img	{
 	width: 200px;
