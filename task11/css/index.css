@@ -1,0 +1,29 @@
+.first {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+.first > div {
+
+	background-color: #bab3ab;
+  	color: black;
+  	width: 200px;
+  	margin: 10px;
+  	border: solid 1px #808080;
+  	line-height: 20px;
+}
+img	{
+	width: 200px;
+	height: 200px;
+}
+button	{
+	margin:10px 25px;
+	width: 150px;
+	font-size: 15px;
+	height: 30px;
+
+}
+p,h2 {
+	padding: 0 20px 0 20px;
+}
