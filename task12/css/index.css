@@ -1,0 +1,35 @@
+.all {
+	display: flex;
+	background-color: #f9f8e5;
+	width: 50%;
+	margin: 30px 0 0 370px;
+}
+.all > div {
+	width: 400px;
+
+}
+.left {
+	align-items: flex-end;
+	display:flex;
+	flex-direction: column;
+	margin: 20px 0 30px 30px;
+}
+.left > div {
+	margin-top: 20px;
+	justify-content: flex-end;
+}
+.right {
+	margin: 20px 0 30px 30px;
+	display:flex;
+	flex-direction: column;
+}
+.right > div {
+	margin-top: 10px;
+	
+}
+.long {
+	width: 250px;
+}
+.medium {
+	width: 180px;
+}
