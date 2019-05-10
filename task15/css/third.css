@@ -1,0 +1,135 @@
+.flx {
+	display:flex;
+    flex-direction:column;
+    height: 700px;
+    justify-content: space-around;
+}
+.topflx {
+	display: flex;
+    justify-content: space-around;
+}
+.topflx > div {	
+    border: solid 5px;
+	width: 250px;
+	height: 250px;
+}
+.btmflx {
+	display: flex;
+    justify-content: space-around;
+}
+.btmflx > div {	
+    border: solid 5px;
+	width: 250px;
+	height: 250px;
+}
+.a1 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.a1 > div {
+	border: solid 2px;
+	width: 50px;
+	margin:10px;
+	height: 50px;
+	background-color: blue;
+}
+.a2 {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.a2 > div {
+	border: solid 2px;
+	width: 50px;
+	margin:10px;
+	height: 50px;
+	background-color: yellow;
+}
+.a3 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.a3 > div {
+	border: solid 2px;
+	width: 50px;
+	margin:10px;
+	height: 50px;
+	background-color: blue;
+}
+.a4 {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+}
+.a4 > div {
+	border: solid 2px;
+	width: 50px;
+	margin:10px;
+	height: 50px;
+	background-color: yellow;
+}
+.a11 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.a11 > div {
+	border: solid 2px;
+	width: 50px;
+	margin-left: 10px;
+	height: 50px;
+	background-color: blue;
+}
+.a21 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.a21 > div {
+	border: solid 2px;
+	width: 50px;
+	margin:10px;
+	height: 50px;
+	background-color: blue;
+}
+.a31 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.a31 > div {
+	border: solid 2px;
+	width: 50px;
+	margin:10px;
+	height: 50px;
+	background-color: blue;
+}
+.a41 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.a41 > div {
+	border: solid 2px;
+	width: 50px;
+	margin:10px;
+	height: 50px;
+	background-color: yellow;
+}
+.name1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+.name1 > div {
+	margin-left: 300px;
+	height: 50px;
+	width: 300px;
+}
+p {
+	font-weight: bold;
+	font-size: 25px;
+}
