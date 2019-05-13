@@ -13,6 +13,7 @@
 	border: solid 10px rgb(186, 180, 150);
 	background-image: repeating-linear-gradient(120deg, #d3d3af,#82826d,#d3d3af,#82826d,#d3d3af,#82826d,#d3d3af,#82826d,#d3d3af,#82826d,#d3d3af,#82826d,#d3d3af,#82826d,#d3d3af,#82826d);
 	z-index: 1;
+	opacity: 0.5;
 }
 .a2 {
 	grid-column-start: 2;
