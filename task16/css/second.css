@@ -1,4 +1,46 @@
-.one
 .box {
-  display: grid;
-  grid-template-areas: 
+	display: grid;
+	grid-template-columns: 200px 150px 150px;
+	grid-template-rows: 50px 200px 50px 100px 150px 50px;
+	grid-gap: 20px;
+	border: dashed 2px;
+	padding: 20px;
+	width: 540px;
+	margin-left: 350px;
+}
+.box > div {
+	border: dashed 3px #0963f4;
+	text-align: center;
+	color: white;
+}
+.item1 {
+	grid-area: 1/1/1/4;
+	background-color: #79a9f7;
+}
+.item2 {
+	grid-area: 2/1/2/2;
+	background-color: #d2b0f4;
+}
+.item3 {
+	grid-area: 2/2/span 2/span 2;
+	background-color: #fceb05;
+}
+.item4 {
+	grid-area: 3/1/span 2/2;
+	background-color: #8ef26a;
+}
+.item5 {
+	grid-area: 4/2/4/span 2;
+	background-color:#757a74;
+}
+.item6 {
+	grid-area: 5/1/5/3;
+	background-color: #249951;
+}
+.item7 {
+	background-color: #f796e8;
+}
+.item8 {
+	grid-area: 6/1/6/4;
+	background-color: #dd831c;
+}
