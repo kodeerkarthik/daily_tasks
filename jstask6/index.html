@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+	<h1>Get the total</h1>
+	<span><input type="checkbox" name="check" value=5>5$</span>
+	<span><input type="checkbox" name="check" value=10>10$</span>
+	<span><input type="checkbox" name="check" value=15>15$</span><br><br>
+	<span><input type="checkbox" name="check" value=20>20$</span>
+	<span><input type="checkbox" name="check" value=25>25$</span>
+	<span><input type="checkbox" name="check" value=30>30$</span>
+	<center>
+		<input type="button" value="Unselect All" class="btn" onclick='UnSelectAll()'>
+		<input type="button" value="Select All" class="btn" onclick='selectAll()'><br>
+		<input type="button" value="Submit" class="submit" onclick='calculate()'>
+	</center>
+	<div>
+		<p id="output"></p>
+	</div>
+	<script type="text/javascript" src="./javascript/index.js"></script>
+</body>
+</html>
