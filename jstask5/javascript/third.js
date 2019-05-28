@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-
-</head>
-<body>
-	<p id="red" onclick="red()">RED</p>
-	<p id="blue" onclick="blue()">BLUE</p>
-	<p id="green" onclick="green()">GREEN</p>
-	<script type="text/javascript">
-	function red(){
+function red(){
 		if(document.getElementById("red").style.backgroundColor=="red")
 			document.getElementById("red").style.backgroundColor="white";
 		else
@@ -27,6 +16,3 @@
 		else
 			document.getElementById("green").style.backgroundColor="green";
 	}
-	</script>
-</body>
-</html>
