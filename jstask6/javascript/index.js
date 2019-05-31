@@ -14,6 +14,7 @@ function UnSelectAll(){
 	}
 }	
 function calculate(){
+	debugger;
 	var total=0;
 	var items=document.getElementsByName('check');
 	for(var i=0; i<items.length; i++){
